@@ -16,8 +16,7 @@ int main()
     set<int> rems{1};
     cout << "0.";
     int endpoint = -1, rem = 1;
-    bool reached_endpoint = false;
-    while (reached_endpoint == false) {
+    while (true) {
         rem *= 10;
         cout << rem / n;
         rem %= n;
